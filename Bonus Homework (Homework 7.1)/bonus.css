@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(133, 117, 117);
+}
+.container {
+    width: 800px;
+    margin: 10px auto;
+}
+.row {
+    clear: both;
+}
+.one {
+    width: 200px;
+    height: 70px;
+    background-color: cadetblue;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.two {
+    width: 300px;
+    height: 70px;
+    background-color: pink;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.three {
+    width: 200px;
+    height: 70px;
+    background-color: orange;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.four {
+    width: 70px;
+    height: 80px;
+    background-color: white;
+    float: left;
+}
+.five {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.six {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.seven {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+}
+
+.eight {
+    width: 70px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+}
+.nine {
+    width: 100px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 10px 10px 0 0;
+    float: left;
+}
+
+.ten {
+    width: 400px;
+    height: 210px;
+    background-color: red;
+    float: left;
+    margin-right: 10px;
+}
+
+.eleven {
+    width: 95px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.twelve {
+    width: 95px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.thirteen {
+    width: 70px;
+    height: 210px;
+    background-color: white;
+    float: left;
+}
+
+.fourteen {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 10px;
+}
+
+.fifteen {
+    width: 195px;
+    height: 90px;
+    background-color: black;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.sixteen {
+    width: 195px;
+    height: 90px;
+    background-color: cadetblue;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.seventeen {
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.eighteen {
+    width: 70px;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+
+.nineteen {
+    width: 100px;
+    height: 110px;
+    background-color: orange;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.twenty {
+    width: 195px;
+    height: 110px;
+    background-color: black;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.twenty-one {
+    width: 195px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.twenty-two {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.twenty-three {
+    width: 70px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    margin-top: 10px;
+}
+
+.twenty-four {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    margin-right: 10px;
+}
+
+.twenty-five {
+    width: 195px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+}
+
+.twenty-six {
+    width: 195px;
+    height: 30px;
+    background-color: black;
+    float: left;
+}
+
+.twenty-seven {
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    float: left;
+    margin: -10px 10px 10px 10px;
+}
+
+.twenty-eight {
+    width: 70px;
+    height: 60px;
+    background-color: red;
+    float: left;
+    margin: -10px 0 0;
+}
+
+.twenty-nine {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    float: left;
+}
+
+.thirty {
+    width: 195px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+.thirty-one {
+    width: 405px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    margin: -10px 10px 0 0;
+}
+
+.thirty-three {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    float: left;
+    margin-top: -20px;
+}

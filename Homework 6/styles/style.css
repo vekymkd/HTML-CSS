@@ -1,0 +1,75 @@
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    background-color: mistyrose;
+    text-align: center;
+    color: burlywood;
+}
+h2 {
+    font-family: 'East Sea Dokdo', cursive;
+    background-color: #666666;
+    text-align: center;
+    color: rgb(30, 134, 204);
+    font-size: xx-large;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    background-color: hsla(0, 70%, 40%, 0.5);
+    color: slateblue;
+}
+#hedaer1 {
+    background-color: chocolate;
+    text-align:justify;
+}
+.trial {
+    font-family:'Trirong', serif;
+    background-color: aliceblue;
+    color: rgb(30, 65, 139);
+    opacity: 0.6;
+    border: 1px lavender;
+    text-shadow: 1px 2px 1px #0f330f;
+    word-wrap:break-word;
+    word-spacing: 0.4em;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+ul {
+    width: auto;
+    float: inline-start;
+    margin-top: 8px;
+    background-color: darkgray;
+}
+li {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-left: 30px;
+    font-family: 'Nerko One', cursive;
+    background-color: blanchedalmond;
+    color: brown;
+}
+main {
+    text-align: left;
+    font-size: 30px;
+    background-color: cadetblue;
+}
+.example {
+    font-family: 'Indie Flower', cursive;
+    background-color: chartreuse;
+    letter-spacing: 5px;
+    text-decoration: dashed;
+    text-transform: lowercase;
+    color: #431568;
+}
+.example2 {
+    background-color: #f45b;
+    color: rgb(158, 4, 81);
+    opacity: 0.8;
+}
+footer {
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align:center;
+}

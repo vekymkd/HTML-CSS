@@ -1,0 +1,229 @@
+body {
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Animation 1 */
+
+.loader1 {
+    width: 150px;
+    margin: 150px auto 0px;
+    position: relative;
+}
+.box1 {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    animation: turn 10s linear 1.75s;
+}
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    animation: turn 10s linear 1.75s;
+}
+.loading1 {
+    background-color: rgb(212, 66, 66);
+    text-align: center;
+}
+.loader1 .box1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 2px;
+    animation: turn 10s linear 1.75s;
+}
+.loader1 .box2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 2px;
+    animation: turn 10s linear 1.75s;
+}
+.loader1 .box1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    /* box-shadow: 10px 0px 15px 0px white; */
+    animation: load 10s linear .5s infinite;
+}
+.loader1 .box2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    /* box-shadow: 10px 0px 15px 0px white; */
+    animation: load 10s linear .5s infinite;
+}
+
+/* Animation 2 */
+
+.loader2 {
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 692px;
+    position: relative;
+}
+.loader2 .loading2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    border: 1px solid white;
+    animation: turn 10s linear 1.75s;
+}
+.loader2 .loading2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    animation: load 10s linear .5s infinite;
+}
+
+/* Keyframe for Animation 1, Animation 2 and for the square in Animation 4 */
+
+@keyframes load {
+    0% {
+        width: 0%;
+    }
+
+    87.5% {
+        width: 100%;
+    }
+}
+
+/* Animation 3 */
+
+.ball-loading{
+    display: block;
+    font-size: 0;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 765px;
+}
+
+.ball-loading .ball {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    float: none;
+    background-color: #fff;
+    border: 0 solid #fff;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 100%;
+    animation: ball-loading-animation 1s cubic-bezier(.7, -.13, .22, .86) infinite;
+}
+
+.ball-loading .ball:before,
+.ball-loading .ball:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #fff;
+    border-radius: 100%;
+    opacity: .8;
+}
+.ball-loading .ball:before {
+    top: 0;
+    left: -150%;
+}
+.ball-loading .ball:after {
+    top: 0;
+    left: 150%;
+}
+
+/* Keyframe for Animation 3 */
+
+@keyframes ball-loading-animation {
+    0% {
+    transform: rotate(0deg);
+    }
+    50% {
+    transform: rotate(180deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+
+/* Animation 4 */
+
+.square-ball-loading {
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 745px;
+    position: relative;
+}
+
+.square {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    animation: turn 10s linear 1.75s;
+}
+.square-ball-loading .square {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border: 1px solid white;
+    animation: turn 10s linear 1.75s;
+}
+.square-ball-loading .square::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    animation: load 10s linear 3s infinite;
+}
+
+.square-ball-loading .smallball{
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 5px;
+    animation: smallball-rotate 3s linear infinite;
+}
+
+/* .square-ball-loading .smallball::before{
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 5px;
+    animation: smallball-rotate 1s linear infinite;
+} */
+
+@keyframes smallball-rotate{
+    0%{
+        left: 0px;
+    }
+    25%{
+        left: 50px;
+        top: 0px;
+    }
+    50%{
+        top: 50px;
+        right: 0px;
+    }
+    75%{
+        right: 40px;
+    }
+}

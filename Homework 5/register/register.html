@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <title>Working with HTML5</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Register</h1>
+            <nav>
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="../images/images.html">Images</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li class="current">Register</li>
+                    <li>
+                        <input type="search" value="Search...">
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2><b>Registration Form</b></h2>
+            <form action="" method="POST">
+                <label for="name"><b><i>First Name</i></b></label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <br>
+                <label for="surname"><b><i>Last Name (Surname)</i></b></label>
+                <input type="text" name="surname" id="surname" placeholder="Enter your surname" required>
+                <br>
+                <br>
+                <label for="date"><b><i>Date of birth</i></b></label>
+                <select>
+                    <option value="day" selected>Select day</option>
+                    <option value="day">1</option>
+                    <option value="day">2</option>
+                    <option value="day">3</option>
+                    <option value="day">4</option>
+                    <option value="day">5</option>
+                    <option value="day">6</option>
+                    <option value="day">7</option>
+                    <option value="day">8</option>
+                    <option value="day">9</option>
+                    <option value="day">10</option>
+                    <option value="day">11</option>
+                    <option value="day">12</option>
+                    <option value="day">13</option>
+                    <option value="day">14</option>
+                    <option value="day">15</option>
+                    <option value="day">16</option>
+                    <option value="day">17</option>
+                    <option value="day">18</option>
+                    <option value="day">19</option>
+                    <option value="day">20</option>
+                    <option value="day">21</option>
+                    <option value="day">22</option>
+                    <option value="day">23</option>
+                    <option value="day">24</option>
+                    <option value="day">25</option>
+                    <option value="day">26</option>
+                    <option value="day">27</option>
+                    <option value="day">28</option>
+                    <option value="day">29</option>
+                    <option value="day">30</option>
+                    <option value="day">31</option>
+                </select>
+                <select>
+                    <option value="month" selected>Select month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <select>
+                    <option value="year" selected>Select year</option>
+                    <option value="year">1990</option>
+                    <option value="year">1991</option>
+                    <option value="year">1992</option>
+                    <option value="year">1993</option>
+                    <option value="year">1994</option>
+                    <option value="year">1995</option>
+                    <option value="year">1996</option>
+                    <option value="year">1997</option>
+                    <option value="year">1998</option>
+                    <option value="year">1999</option>
+                    <option value="year">2000</option>
+                </select>
+                <br>
+                <br>
+                <label for="continent"><b><i>Choose your continent</i></b></label>
+                <select>
+                    <option value="continent" selected>Select continent</option>
+                    <option value="continent">Europe</option>
+                    <option value="continent">Asia</option>
+                    <option value="continent">Africa</option>
+                    <option value="continent">North America</option>
+                    <option value="continent">South America</option>
+                    <option value="continent">Australia</option>
+                </select>
+                <br>
+                <br>
+                <label for="gender"><b><i>Select your gender:</i></b></label>
+                <input type="radio" name="gender" id="male" value="male">Male</input>
+                <input type="radio" name="gender" id="female" value="female">Female</input>
+                <input type="radio" name="gender" id="other" value="other">Other</input>
+                <br>
+                <br>
+                <label for="email"><b><i>Enter your email</i></b></label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <br>
+                <br>
+                <label for="username"><b><i>Username</i></b></label>
+                <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                <br>
+                <label for="password"><b><i>Password</i></b></label>
+                <br>
+                <input type="password" name="password" id="password" minlength="8" required>
+                <input type="submit" value="Submit registration">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; Velimir Stojanov, 2020
+        </footer>
+    </div>
+
+</body>
+
+</html>
